@@ -1,16 +1,16 @@
 # ============================================================
 # Site Settings
 # ============================================================
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "contrast"
 
 title: "creatyvin"
 subtitle: "Dmytro Grepan"
 name: "Dmytro Grepan"
 description: "Building the future. Sharing the journey."
-url: ""
+url: "https://creatyvin.github.io"
 baseurl: ""
-repository: "creatyvin/manifesto_1000"
+repository: "creatyvin/creatyvin.github.io"
 
 # ============================================================
 # Author
@@ -41,6 +41,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # ============================================================
 # Defaults
