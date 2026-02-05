@@ -1,0 +1,19 @@
+---
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/contrast";
+@import "minimal-mistakes";
+
+/* Текст шире, TOC справа (дефолт темы) */
+@media (min-width: 64em) {
+  .page {
+    width: 100%;
+    padding-right: 250px;
+  }
+
+  .sidebar__right {
+    width: 220px;
+  }
+}

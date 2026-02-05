@@ -1,0 +1,21 @@
+# Jekyll build
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby
+.bundle/
+vendor/
+Gemfile.lock
+
+# Sass
+.sass-cache/
+
+# macOS
+.DS_Store
+*.swp
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
